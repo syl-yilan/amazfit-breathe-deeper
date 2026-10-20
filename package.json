@@ -1,0 +1,19 @@
+{
+  "name": "amazfit-breathe-deeper",
+  "version": "1.0.7",
+  "description": "Land-based static apnea training for Amazfit Balance 2 on Zepp OS",
+  "main": "app.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules --test tests/*.test.mjs",
+    "build": "zeus build -t \"Amazfit Balance 2\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@zeppos/device-types": "^3.0.0"
+  },
+  "dependencies": {
+    "@zeppos/zml": "^0.0.9"
+  },
+  "private": true
+}

@@ -1,0 +1,11 @@
+node_modules/
+dist/
+preview/
+.tmp/
+*.log
+.env
+.env.*
+!.env.example
+.zepp/
+.DS_Store
+Thumbs.db
